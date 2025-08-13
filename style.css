@@ -131,7 +131,8 @@ img {
   background-color: #fff;
   border-radius: 1em;
   padding: 20px;
-  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   height: 70vh;
   width: 90%;
@@ -230,42 +231,62 @@ img {
 
 .main-layout2 {
   display: grid;
-    display: grid;
- grid-template-columns: 1fr 1fr 1fr; 
-  margin-top: 30px;
-  justify-content: center;
-
-  height: 80vh;
+  grid-template-columns: 2fr 1fr; /* left bigger, right smaller */
+  gap: 1em;
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-gap: 2em;
+  margin: 30px auto;
+
 }
 .layout-2{
-  width: 100%;
+
   background-color: #fff;
   height: 80vh;
-    width: 90%;
+width: 100%;
   box-sizing: border-box;
-
+  
 }
 
 .lay-main-header{
   padding: 20px;
   display: grid;
-  grid-template-columns: auto 30px; /* Or '1fr auto' */
+  grid-template-columns: auto 30px;
   align-items: center;
-  gap: 10px; /* Optional, spacing between header and icon */
+  gap: 10px; 
+ 
 }
 
 .lay-main-header div{
-  color: white;
+   color: white;
   background-color: blue;
   border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 .lay-img9 {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+.lay2-header{
+   font-size:1.5rem;
+}
+
+.main-image{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+.main-image img{
+  width: 200px;
+  height: 300px;
+    border:1px solid black;
+    margin: 20px;
+    padding: 20px;
 }
 
 
