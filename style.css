@@ -5,9 +5,9 @@
 }
 
 body {
-  background-color: rgb(241, 242, 244);
+  background-color: rgb(217, 218, 219);
   font-family: Arial, sans-serif;
-  height: 3000px;
+
 }
 
 .container {
@@ -166,6 +166,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   gap: 2em;
+  border-radius: 1em;
 }
 
 .main-lay {
@@ -245,6 +246,7 @@ img {
   width: 100%;
   box-sizing: border-box;
 
+
 }
 
 .lay-main-header {
@@ -257,13 +259,16 @@ img {
 }
 
 .lay-main-header div {
+   width: 30px;                /* Set the width of the circle */
+  height: 30px; 
   color: white;
-  background-color: blue;
-  border-radius: 1000px;
+  border-radius: 50%;         /* Makes it a circle */
+  background-color: #1149b1; 
   display: flex;
   justify-content: center;
   align-items: center;
-
+ color: #f7f5f5;                /* Icon color */
+  font-size: 15px; 
 }
 
 .lay-img9 {
@@ -280,31 +285,32 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 260px);
   object-fit: cover;
-gap: .1em;
+  gap: .1em;
   font-size: 20px;
+
 }
 
 
 .image {
   display: grid;
- 
    margin-left: 20px;
   margin-right: auto;
   width: 260px;
   height: 330px;
-  border: .1px solid rgb(211, 199, 199);
-border-radius: 1em;
+  border: 1px solid #e9dddd;
+
 }
 
 .image img {
   padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
-max-width: 70%;
+  max-width: 70%;
   height: 230px;
   object-fit: cover;
   box-sizing: border-box;
   align-items: stretch;
+ 
 }
 
 .title-dis{
@@ -315,3 +321,14 @@ color: rgb(84, 204, 84);
   margin: 0;
   padding-left: 10px;
 }
+/* lay-2 ends */
+
+/* Footer Start */
+
+.main-footer{
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+height: 400px;
+width: 100%;
+  background-color:#18191a; ;
+}
+
